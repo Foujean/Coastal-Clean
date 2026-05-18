@@ -334,7 +334,7 @@ svg {
 }
 
 .about-image {
-   width: 100%;
+   width: auto;
   height: auto;
   max-height: 480px;
   border-radius: 32px;
