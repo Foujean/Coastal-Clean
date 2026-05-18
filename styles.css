@@ -325,7 +325,7 @@ svg {
 }
 
 .about-image-card {
-  overflow: hidden;
+  overflow: visible;
   border-radius: 40px;
   border: 1px solid rgba(255, 255, 255, 0.8);
   background: white;
@@ -334,10 +334,11 @@ svg {
 }
 
 .about-image {
-  height: 480px;
-  width: 100%;
+   width: 100%;
+  height: auto;
+  max-height: 480px;
   border-radius: 32px;
-  bject-fit: contain;
+  object-fit: contain;
   background: white;
 }
 
