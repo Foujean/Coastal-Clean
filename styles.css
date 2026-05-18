@@ -337,7 +337,8 @@ svg {
   height: 480px;
   width: 100%;
   border-radius: 32px;
-  object-fit: cover;
+  bject-fit: contain;
+  background: white;
 }
 
 .about-text {
